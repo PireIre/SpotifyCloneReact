@@ -16,7 +16,9 @@ function Mp3Player(props){
                </div>
            </div>
             <div class="Mp3Player-Content-Right">
-
+                <audio autoPlay controls>
+                    {/*<source src={require("./Songs/Beautiful-Day.mp3")} type="audio/mp3"/>*/}
+                </audio>
             </div>
         </article>
     )

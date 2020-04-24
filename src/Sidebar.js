@@ -29,6 +29,10 @@ function Sidebar(props){
                     <li class="album-item">Born To Run 150 BMP</li>
                     <li class="album-item">This is The Killers</li>
                     <li class="album-item">2000-talets hits</li>
+                    <li className="album-item">USA Top 50</li>
+                    <li className="album-item">Slovenian Hits </li>
+
+
                 </ul>
             </div>
         </article>
