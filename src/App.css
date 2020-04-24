@@ -1,0 +1,215 @@
+*{
+  box-sizing: border-box;
+}
+
+selection{
+  margin: 0;
+  display: grid;
+  grid-template-columns: 250px auto;
+  grid-template-rows: 615px 70px;
+  grid-template-areas: "sidebar main"
+                        "player player";
+}
+
+header,
+aside,
+main,
+footer {
+  padding: 16px;
+  text-align: center;
+}
+
+aside{
+  background: #000000;
+  grid-area: sidebar;
+}
+
+footer {
+  background: #4a4a4a;
+  grid-area: player;
+}
+
+main{
+  grid-area: main;
+  padding: 0;
+  color: white;
+  overflow: auto;
+}
+
+.SongCard:hover .Play-Button-Icon{
+  display: block;
+}
+.SongCard:hover .Music-Note-Icon{
+  display: none;
+}
+
+.SongCard:hover{
+  background-color: #303030
+}
+
+.SongCard{
+  display: flex;
+  flex-direction: row;
+  padding-top: 0;
+  height: 70px;
+  background: #191919;
+  text-align: left;
+}
+
+.SongCard-Content-Left{
+  width: 90%;
+  margin-left: 50px;
+}
+
+.card-left-item{
+  margin: 3px;
+}
+.Music-Note-Icon{
+  margin-left: 20px;
+  margin-top: 4px;
+}
+
+.Play-Button-Icon{
+  margin-left: 20px;
+  margin-top: 4px;
+  display:none;
+}
+
+.SongCard-Content-Right{
+  width: 10%;
+}
+
+.AlbumHeader{
+  display: flex;
+  flex-direction: row;
+  padding-top: 0;
+  height: 250px;
+  background: #3C3B3F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+.AlbumHeader-Content-Left{
+  width: 250px;
+  max-width: 350px;
+  align-self: flex-end;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.AlbumHeader-Right-Content-Item{
+  margin: 0;
+  justify-content: left;
+}
+.AlbumHeader-Content-Right{
+  width: 60%;
+  color: white;
+  text-align: left;
+  align-self: flex-end;
+  margin-left:0;
+  margin-bottom: 20px;
+}
+
+.Big-Green-Play-Button{
+  display: flex;
+  width: 80px;
+  height: 80px;
+  align-content: flex-start;
+  margin: 0 10px;
+}
+
+
+.Play-Menu{
+  background: #1c1c1c;
+}
+
+.logo{
+  width: 150px;
+}
+
+header{
+  width: auto;
+}
+
+li{
+  list-style-type: none;
+  color: gray;
+  padding: 2px;
+}
+
+li:hover{
+  color: white;
+}
+
+.album-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.sidebar-functions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+
+.sidebar{
+  text-align: left;
+}
+
+.sidebar-header{
+  color:white;
+}
+
+.AlbumHeader-Header{
+  margin-top:0;
+}
+
+
+span{
+  padding-right:30px;
+  margin-top: 10px;
+}
+
+.sidebar-icon{
+  width: 30px;
+  padding-top: 2px;
+}
+
+ul{
+  padding-left: 0;
+}
+
+.album-item{
+  padding-top: 10px;
+}
+
+.AlbumHeader-Image{
+  height: 100%;
+  width: 100%;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.Mp3Player{
+  display: flex;
+  flex-direction: row;
+  padding-top: 0;
+  height: 30px;
+  text-align: left;
+}
+
+.Mp3Player-Content-Left{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.Mp3Player-Item-Left-Right{
+ margin: 0;
+  padding-left: 20px;
+}

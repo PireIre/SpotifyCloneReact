@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "All the small things",
+    "artist": "blink-182",
+    "album": "Enema Of The State",
+    "length": "2:47",
+    "media": "All-The-Small-Things"
+  },
+  {
+    "id": 2,
+    "title": "Beautiful Day",
+    "artist": "U2",
+    "album": "All That You Can't Leave Behind",
+    "length": "4:08",
+    "media": "Beautiful-day"
+  },
+  {
+    "id": 3,
+    "title": "Clocks",
+    "artist": "Coldplay",
+    "album": "A Rush of Blood to the Head",
+    "length": "5:07",
+    "media": "Clocks"
+  },
+  {
+    "id": 4,
+    "title": "Dragostea Din Tei",
+    "artist": "O-Zone",
+    "album": "DiscO-Zone",
+    "length": "3:35",
+    "media": "Dragostea-Din-Tei"
+  },
+  {
+    "id": 5,
+    "title": "Lonely",
+    "artist": "Akon",
+    "album": "Heartbreakers",
+    "length": "3:55",
+    "media": "Lonely"
+  },
+  {
+    "id": 6,
+    "title": "Speed of Sound",
+    "artist": "Coldplay",
+    "album": "X&Y",
+    "length": "4:47",
+    "media": "Speed-of-Sound"
+  },
+  {
+    "id": 7,
+    "title": "Chasing Cars",
+    "artist": "Snow Patrol",
+    "album": "Chasing Cars",
+    "length": "3.41",
+    "media": "Chasing-Cars"
+  },
+  {
+    "id": 8,
+    "title": "Crazy",
+    "artist": "Gnarls Barkely",
+    "album": "St.Elsewhere",
+    "length": "3:01",
+    "media": "Crazy"
+  },
+  {
+    "id": 9,
+    "title": "Human",
+    "artist": "The Killers",
+    "album": "Day & Age (Bonus Tracks)",
+    "length": "4:08",
+    "media": "Human"
+  }
+]
