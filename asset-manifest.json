@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SpotifyCloneReact/static/css/main.cfdd811d.chunk.css",
+    "main.css": "/SpotifyCloneReact/static/css/main.e981901a.chunk.css",
     "main.js": "/SpotifyCloneReact/static/js/main.0e73feb1.chunk.js",
     "main.js.map": "/SpotifyCloneReact/static/js/main.0e73feb1.chunk.js.map",
     "runtime-main.js": "/SpotifyCloneReact/static/js/runtime-main.8d97c9d7.js",
@@ -8,9 +8,9 @@
     "static/js/2.eb29562f.chunk.js": "/SpotifyCloneReact/static/js/2.eb29562f.chunk.js",
     "static/js/2.eb29562f.chunk.js.map": "/SpotifyCloneReact/static/js/2.eb29562f.chunk.js.map",
     "index.html": "/SpotifyCloneReact/index.html",
-    "precache-manifest.9dad16e3eb892c3b4fc22abc23de2077.js": "/SpotifyCloneReact/precache-manifest.9dad16e3eb892c3b4fc22abc23de2077.js",
+    "precache-manifest.9946d3c1cae2bea80a93cadbc615b788.js": "/SpotifyCloneReact/precache-manifest.9946d3c1cae2bea80a93cadbc615b788.js",
     "service-worker.js": "/SpotifyCloneReact/service-worker.js",
-    "static/css/main.cfdd811d.chunk.css.map": "/SpotifyCloneReact/static/css/main.cfdd811d.chunk.css.map",
+    "static/css/main.e981901a.chunk.css.map": "/SpotifyCloneReact/static/css/main.e981901a.chunk.css.map",
     "static/js/2.eb29562f.chunk.js.LICENSE.txt": "/SpotifyCloneReact/static/js/2.eb29562f.chunk.js.LICENSE.txt",
     "static/media/Album-Header.png": "/SpotifyCloneReact/static/media/Album-Header.d19bc82b.png",
     "static/media/All-The-Small-Things.mp3": "/SpotifyCloneReact/static/media/All-The-Small-Things.8549ffd4.mp3",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.8d97c9d7.js",
     "static/js/2.eb29562f.chunk.js",
-    "static/css/main.cfdd811d.chunk.css",
+    "static/css/main.e981901a.chunk.css",
     "static/js/main.0e73feb1.chunk.js"
   ]
 }
