@@ -6,7 +6,7 @@ selection{
   margin: 0;
   display: grid;
   grid-template-columns: 250px auto;
-  grid-template-rows: auto 70px;
+  grid-template-rows: 620px 70px;
   grid-template-areas: "sidebar main"
                         "player player";
 }
@@ -25,6 +25,7 @@ aside{
 }
 
 footer {
+  position: sticky;
   background: #4a4a4a;
   grid-area: player;
 }

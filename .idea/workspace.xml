@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27d3e88a-6631-41d6-afd6-3492f161bcdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Mp3PlayerLeft.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mp3Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mp3Player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlaylistPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlaylistPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Songs/Chasing Cars.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/Songs/Chasing-Cars.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/information.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/information.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +107,8 @@
       <workItem from="1587886251962" duration="772000" />
       <workItem from="1587887028499" duration="5060000" />
       <workItem from="1587893798294" duration="1263000" />
+      <workItem from="1587895065956" duration="1845000" />
+      <workItem from="1587899573275" duration="727000" />
     </task>
     <servers />
   </component>
