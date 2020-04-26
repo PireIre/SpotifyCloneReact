@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27d3e88a-6631-41d6-afd6-3492f161bcdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mp3PlayerLeft.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mp3Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mp3Player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlaylistPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlaylistPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Songs/Chasing Cars.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/Songs/Chasing-Cars.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/information.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/information.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -32,10 +40,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images/Icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,15 +55,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/Songs" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/Images/Covers" />
       <recent name="$PROJECT_DIR$/src/Images/Icons" />
-      <recent name="$PROJECT_DIR$/src/Images" />
-      <recent name="$PROJECT_DIR$/src/Songs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -89,38 +104,79 @@
       <workItem from="1587711728502" duration="1090000" />
       <workItem from="1587712880977" duration="6309000" />
       <workItem from="1587719239732" duration="12200000" />
-      <workItem from="1587733197251" duration="2456000" />
+      <workItem from="1587733197251" duration="8664000" />
+      <workItem from="1587746790948" duration="2106000" />
+      <workItem from="1587805034682" duration="3638000" />
+      <workItem from="1587809149471" duration="3979000" />
+      <workItem from="1587814160168" duration="1143000" />
+      <workItem from="1587815316187" duration="1987000" />
+      <workItem from="1587885545435" duration="701000" />
+      <workItem from="1587886251962" duration="772000" />
+      <workItem from="1587887028499" duration="5060000" />
+      <workItem from="1587893798294" duration="1263000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/react-audioplayer" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="640" y="85" key="#ESLint" timestamp="1587677690150">
+    <state x="640" y="85" key="#ESLint" timestamp="1587806332971">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state x="640" y="85" key="#ESLint/0.23.1440.794@0.23.1440.794" timestamp="1587677690150" />
+    <state x="640" y="85" key="#ESLint/0.23.1440.794@0.23.1440.794" timestamp="1587806332971" />
+    <state x="640" y="85" key="#ESLint/0.23.1440.795@0.23.1440.795" timestamp="1587745315526" />
     <state x="369" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587729739694">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="369" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.794@0.23.1440.794" timestamp="1587729739694" />
-    <state x="794" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587711408869">
+    <state x="766" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587888656120">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state x="794" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.794@0.23.1440.794" timestamp="1587711408869" />
-    <state x="458" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587713024642">
+    <state x="766" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.794@0.23.1440.794" timestamp="1587888656120" />
+    <state x="794" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.795@0.23.1440.795" timestamp="1587745400270" />
+    <state x="458" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587893289353">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state x="458" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.794@0.23.1440.794" timestamp="1587713024642" />
-    <state x="443" y="59" key="SettingsEditor" timestamp="1587715833750">
+    <state x="458" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.794@0.23.1440.794" timestamp="1587893289353" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1587809145925">
       <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1587809145925" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1587809145923">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1587809145923" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1587809145923">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1587809145923" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1587809145924">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1587809145924" />
+    <state x="443" y="59" key="SettingsEditor" timestamp="1587746820040">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state x="443" y="59" key="SettingsEditor/0.23.1440.794@0.23.1440.794" timestamp="1587715833750" />
-    <state x="116" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1587719239377">
+    <state x="443" y="59" key="SettingsEditor/0.23.1440.795@0.23.1440.795" timestamp="1587746820040" />
+    <state x="116" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1587885545498">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state x="116" y="252" key="com.intellij.ide.util.TipDialog/0.23.1440.794@0.23.1440.794" timestamp="1587719239377" />
+    <state x="116" y="252" key="com.intellij.ide.util.TipDialog/0.23.1440.794@0.23.1440.794" timestamp="1587885545498" />
+    <state x="646" y="23" width="794" height="793" key="dock-window-1" timestamp="1587810790585">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state x="646" y="23" width="794" height="793" key="dock-window-1/0.23.1440.794@0.23.1440.794" timestamp="1587810790585" />
+    <state x="378" y="177" width="683" height="486" key="find.popup" timestamp="1587808560477">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state x="378" y="177" width="683" height="486" key="find.popup/0.23.1440.794@0.23.1440.794" timestamp="1587808560477" />
     <state x="745" y="141" key="search.everywhere.popup" timestamp="1587673030539">
       <screen x="0" y="23" width="1440" height="794" />
     </state>

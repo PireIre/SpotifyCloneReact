@@ -1,9 +1,9 @@
 import React from 'react';
-
 import './App.css';
 
 
-function Mp3Player(props){
+function Mp3Player(props) {
+
     return (
         <article class = "Mp3Player">
            <div class="Mp3Player-Content-Left">
@@ -16,8 +16,8 @@ function Mp3Player(props){
                </div>
            </div>
             <div class="Mp3Player-Content-Right">
-                <audio autoPlay controls>
-                    {/*<source src={require("./Songs/Beautiful-Day.mp3")} type="audio/mp3"/>*/}
+                <audio class="audioMp3Player" autoPlay controls>
+                   {/* <source src={require("./Songs/Beautiful-Day.mp3")} type="audio/mp3"/>*/}
                 </audio>
             </div>
         </article>

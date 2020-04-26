@@ -6,7 +6,7 @@ selection{
   margin: 0;
   display: grid;
   grid-template-columns: 250px auto;
-  grid-template-rows: 615px 70px;
+  grid-template-rows: auto 70px;
   grid-template-areas: "sidebar main"
                         "player player";
 }
@@ -172,7 +172,7 @@ li:hover{
 
 
 span{
-  padding-right:30px;
+  padding-right:20px;
   margin-top: 10px;
 }
 
@@ -183,6 +183,7 @@ span{
 
 ul{
   padding-left: 0;
+  cursor: default;
 }
 
 .album-item{
@@ -216,4 +217,9 @@ ul{
 
 .Mp3Player-Content-Right{
   margin-left: 30%;
+}
+
+.audioMp3Player{
+  width: 600px;
+  background:#4a4a4a;
 }
