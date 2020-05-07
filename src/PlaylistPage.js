@@ -15,7 +15,8 @@ import Lonely from "./Songs/Lonely.mp3"
 import SpeedOfSound from "./Songs/Speed-Of-Sound.mp3"
 import Mp3PlayerLeft from "./Mp3PlayerLeft";
 
-function getTime(time) {
+
+ function getTime(time) {
     if(!isNaN(time)) {
         return Math.floor(time / 60) + ':' + ('0' + Math.floor(time % 60)).slice(-2)
     }
@@ -24,7 +25,10 @@ function getTime(time) {
 class PlaylistPage extends React.Component{
     state  = {
         selectedTack: null,
-        player:"stopped"
+        player:"stopped",
+        title: "",
+        artist: "",
+        media: "All-The-Small-Things"
     }
 
     componentDidMount() {
@@ -38,6 +42,11 @@ class PlaylistPage extends React.Component{
 
     componentWillUnmount() {
         this.player.removeEventListener("timeupdate", () => {});
+    }
+
+
+    getInfo = (title) =>{
+            return (`${title}`);
     }
 
     componentDidUpdate(prevProps, prevState) {
@@ -87,6 +96,8 @@ class PlaylistPage extends React.Component{
                 this.player.pause();
                 this.player.currentTime = 0;
                 this.setState({ selectedTrack: null });
+                this.setState({ title: "" });
+                this.setState({ artist: "" });
             } else if (
                 this.state.player === "playing" &&
                 prevState.player === "paused"
@@ -99,17 +110,27 @@ class PlaylistPage extends React.Component{
 
     render() {
         const information = require('./information.json');
+
         const cards = information.map((item) => {
             return (
                 <Card key={item.id} title={item.title} artist={item.artist} album={item.album} length={item.length}
                       media={item.media}
-                      onClick={() => this.setState({selectedTrack: item.title})}
+
+                     onClick={() => {this.setState({selectedTrack: item.title});
+                     this.setState({title: item.title});
+                     this.setState({artist: item.artist});
+                     this.setState({media: item.media});
+                     }}
+
                 />
             );
         });
 
-        const currentTime = getTime(this.state.currentTime)
-        const duration = getTime(this.state.duration)
+        const currentTime = getTime(this.state.currentTime);
+        const duration = getTime(this.state.duration);
+        let currentTitle = this.getInfo(this.state.title);
+        let currentArtist = this.getInfo(this.state.artist);
+        let currentMedia = this.getInfo(this.state.media);
 
         return (
             <selection id="root">
@@ -130,8 +151,13 @@ class PlaylistPage extends React.Component{
                 </main>
                 <footer>
                     <article className="Mp3Player">
-                       <Mp3PlayerLeft/>
+                        <Mp3PlayerLeft
+                            title = {currentTitle}
+                            artist = {currentArtist}
+                            image = {require("./Images/Covers/" + currentMedia + ".jpeg")}
+                        />
                         <div className="Mp3Player-Content-Right">
+                            {cards.title}
                             <div>
                                 {this.state.player === "paused" && (
                                     <button onClick={() => this.setState({ player: "playing" })}>

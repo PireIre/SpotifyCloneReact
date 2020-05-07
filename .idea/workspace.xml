@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="27d3e88a-6631-41d6-afd6-3492f161bcdc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/Covers/Beautiful-day.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/Covers/Beautiful-Day.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/Covers/Speed-of-Sound.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/Covers/Speed-Of-Sound.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mp3PlayerLeft.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mp3PlayerLeft.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlaylistPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlaylistPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -64,18 +65,6 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -108,12 +97,25 @@
       <workItem from="1587887028499" duration="5060000" />
       <workItem from="1587893798294" duration="1263000" />
       <workItem from="1587895065956" duration="1845000" />
-      <workItem from="1587899573275" duration="727000" />
+      <workItem from="1587899573275" duration="1085000" />
+      <workItem from="1587900829476" duration="13000" />
+      <workItem from="1587901956032" duration="915000" />
+      <workItem from="1587928907539" duration="213000" />
+      <workItem from="1587966521612" duration="55000" />
+      <workItem from="1587966631667" duration="3342000" />
+      <workItem from="1587985813167" duration="7007000" />
+      <workItem from="1588016280295" duration="119000" />
+      <workItem from="1588060121975" duration="1766000" />
+      <workItem from="1588062047057" duration="908000" />
+      <workItem from="1588160395348" duration="418000" />
+      <workItem from="1588161223806" duration="668000" />
+      <workItem from="1588670907081" duration="1438000" />
+      <workItem from="1588843615237" duration="3487000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -160,10 +162,11 @@
     </state>
     <state x="443" y="59" key="SettingsEditor/0.23.1440.794@0.23.1440.794" timestamp="1587715833750" />
     <state x="443" y="59" key="SettingsEditor/0.23.1440.795@0.23.1440.795" timestamp="1587746820040" />
-    <state x="116" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1587885545498">
-      <screen x="0" y="23" width="1440" height="794" />
+    <state x="116" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1588060131297">
+      <screen x="0" y="23" width="1440" height="790" />
     </state>
-    <state x="116" y="252" key="com.intellij.ide.util.TipDialog/0.23.1440.794@0.23.1440.794" timestamp="1587885545498" />
+    <state x="116" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.790@0.23.1440.790" timestamp="1588060131297" />
+    <state x="116" y="252" key="com.intellij.ide.util.TipDialog/0.23.1440.794@0.23.1440.794" timestamp="1587985812539" />
     <state x="646" y="23" width="794" height="793" key="dock-window-1" timestamp="1587810790585">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
@@ -172,9 +175,10 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="378" y="177" width="683" height="486" key="find.popup/0.23.1440.794@0.23.1440.794" timestamp="1587808560477" />
-    <state x="745" y="141" key="search.everywhere.popup" timestamp="1587673030539">
-      <screen x="0" y="23" width="1440" height="794" />
+    <state x="745" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1588061537180">
+      <screen x="0" y="23" width="1440" height="790" />
     </state>
+    <state x="745" y="140" width="670" height="676" key="search.everywhere.popup/0.23.1440.790@0.23.1440.790" timestamp="1588061537180" />
     <state x="745" y="141" key="search.everywhere.popup/0.23.1440.794@0.23.1440.794" timestamp="1587673030539" />
   </component>
 </project>

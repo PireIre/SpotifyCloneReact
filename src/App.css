@@ -6,7 +6,7 @@ selection{
   margin: 0;
   display: grid;
   grid-template-columns: 250px auto;
-  grid-template-rows: 620px 70px;
+  grid-template-rows: 615px 70px;
   grid-template-areas: "sidebar main"
                         "player player";
 }
@@ -182,9 +182,17 @@ span{
   padding-top: 2px;
 }
 
+.image{
+  width: 45px;
+  margin-bottom: 10px;
+}
 ul{
   padding-left: 0;
   cursor: default;
+}
+
+.Mp3Player-Item-Left-Right{
+  color: white;
 }
 
 .album-item{
