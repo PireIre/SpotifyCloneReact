@@ -28,7 +28,7 @@ class PlaylistPage extends React.Component{
         player:"stopped",
         title: "",
         artist: "",
-        media: "All-The-Small-Things"
+        media: "Beautiful-Day"
     }
 
     componentDidMount() {
@@ -86,6 +86,7 @@ class PlaylistPage extends React.Component{
             if(track) {
                 this.player.src = track;
                 this.player.play()
+                this.player.volume = 0.3;
                 this.setState({player: "playing"})
             }
         }
@@ -160,17 +161,17 @@ class PlaylistPage extends React.Component{
                             {cards.title}
                             <div>
                                 {this.state.player === "paused" && (
-                                    <button onClick={() => this.setState({ player: "playing" })}>
+                                    <button className = "Mp3Player-Item Play" onClick={() => this.setState({ player: "playing" })}>
                                         Play
                                     </button>
                                 )}
                                 {this.state.player === "playing" && (
-                                    <button onClick={() => this.setState({ player: "paused" })}>
+                                    <button className = "Mp3Player-Item Pause" onClick={() => this.setState({ player: "paused" })}>
                                         Pause
                                     </button>
                                 )}
                                 {this.state.player === "playing" || this.state.player === "paused" ? (
-                                    <button onClick={() => this.setState({ player: "stopped" })}>
+                                    <button className = "Mp3Player-Item Stop" onClick={() => this.setState({ player: "stopped" })}>
                                         Stop
                                     </button>
                                 ) : (
@@ -178,7 +179,7 @@ class PlaylistPage extends React.Component{
                                 )}
                             </div>
                             {this.state.player === "playing" || this.state.player === "paused" ? (
-                                <div>
+                                <div className = "Mp3Player-Item-Time" >
                                     {currentTime} / {duration}
                                 </div>
                             ) : (
