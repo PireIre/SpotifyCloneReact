@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/SpotifyCloneReact/static/css/main.e981901a.chunk.css",
-    "main.js": "/SpotifyCloneReact/static/js/main.0e73feb1.chunk.js",
-    "main.js.map": "/SpotifyCloneReact/static/js/main.0e73feb1.chunk.js.map",
+    "main.css": "/SpotifyCloneReact/static/css/main.c7414bf2.chunk.css",
+    "main.js": "/SpotifyCloneReact/static/js/main.77ef12e0.chunk.js",
+    "main.js.map": "/SpotifyCloneReact/static/js/main.77ef12e0.chunk.js.map",
     "runtime-main.js": "/SpotifyCloneReact/static/js/runtime-main.8d97c9d7.js",
     "runtime-main.js.map": "/SpotifyCloneReact/static/js/runtime-main.8d97c9d7.js.map",
     "static/js/2.eb29562f.chunk.js": "/SpotifyCloneReact/static/js/2.eb29562f.chunk.js",
     "static/js/2.eb29562f.chunk.js.map": "/SpotifyCloneReact/static/js/2.eb29562f.chunk.js.map",
     "index.html": "/SpotifyCloneReact/index.html",
-    "precache-manifest.9946d3c1cae2bea80a93cadbc615b788.js": "/SpotifyCloneReact/precache-manifest.9946d3c1cae2bea80a93cadbc615b788.js",
+    "precache-manifest.b2a04e42927ca4cb81c7cedf437d89c6.js": "/SpotifyCloneReact/precache-manifest.b2a04e42927ca4cb81c7cedf437d89c6.js",
     "service-worker.js": "/SpotifyCloneReact/service-worker.js",
-    "static/css/main.e981901a.chunk.css.map": "/SpotifyCloneReact/static/css/main.e981901a.chunk.css.map",
+    "static/css/main.c7414bf2.chunk.css.map": "/SpotifyCloneReact/static/css/main.c7414bf2.chunk.css.map",
     "static/js/2.eb29562f.chunk.js.LICENSE.txt": "/SpotifyCloneReact/static/js/2.eb29562f.chunk.js.LICENSE.txt",
     "static/media/Album-Header.png": "/SpotifyCloneReact/static/media/Album-Header.d19bc82b.png",
     "static/media/All-The-Small-Things.mp3": "/SpotifyCloneReact/static/media/All-The-Small-Things.8549ffd4.mp3",
+    "static/media/All-The-Small-Things.jpeg": "/SpotifyCloneReact/static/media/All-The-Small-Things.abdda972.jpeg",
     "static/media/Beautiful-Day.mp3": "/SpotifyCloneReact/static/media/Beautiful-Day.b9910534.mp3",
     "static/media/Chasing-Cars.mp3": "/SpotifyCloneReact/static/media/Chasing-Cars.22dba4fb.mp3",
     "static/media/Clocks.mp3": "/SpotifyCloneReact/static/media/Clocks.6c523428.mp3",
+    "static/media/Crazy.jpeg": "/SpotifyCloneReact/static/media/Crazy.88237470.jpeg",
     "static/media/Crazy.mp3": "/SpotifyCloneReact/static/media/Crazy.d9e45c4f.mp3",
     "static/media/Dragostea-Din-Tei.mp3": "/SpotifyCloneReact/static/media/Dragostea-Din-Tei.59a0cbfd.mp3",
+    "static/media/Dragostea-Din-Tei.jpeg": "/SpotifyCloneReact/static/media/Dragostea-Din-Tei.a2e8f043.jpeg",
+    "static/media/Human.jpeg": "/SpotifyCloneReact/static/media/Human.8e79f9cc.jpeg",
     "static/media/Human.mp3": "/SpotifyCloneReact/static/media/Human.ea85d5a5.mp3",
     "static/media/Lonely.mp3": "/SpotifyCloneReact/static/media/Lonely.abc3598c.mp3",
     "static/media/Speed-Of-Sound.mp3": "/SpotifyCloneReact/static/media/Speed-Of-Sound.b8f37be9.mp3"
@@ -26,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.8d97c9d7.js",
     "static/js/2.eb29562f.chunk.js",
-    "static/css/main.e981901a.chunk.css",
-    "static/js/main.0e73feb1.chunk.js"
+    "static/css/main.c7414bf2.chunk.css",
+    "static/js/main.77ef12e0.chunk.js"
   ]
 }
