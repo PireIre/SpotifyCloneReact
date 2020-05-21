@@ -4,6 +4,9 @@
 
 This is a React project inspired by Spotify Session SDA students have been given through Novare.
 
+## Demo
+https://pireire.github.io/SpotifyCloneReact/
+
 ## Motivation
 
 Learning more about CSS Flexbox/Grid and React states.
